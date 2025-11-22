@@ -1,3 +1,53 @@
+This code demostrated how we can use all mouse events in gtkmm4
+    on_MB1_cli(); // Mouse left button clicked
+    on_MB2_cli(); // Mouse middle button clicked
+    on_MB3_cli(); // Mouse right button clicked
+    on_MB8_cli(); // Mouse optional8 button clicked - only more than 3 buttons mouse have this button
+    on_MB9_cli(); // Mouse optional9 button clicked - only more than 3 buttons mouse have this button
+
+    on_MB1_double_cli(); // Mouse left button double clicked
+    on_MB1_triple_cli(); // Mouse left button triple clicked
+    on_MB1_quad_cli(); // Mouse left button quad clicked
+    on_MB2_double_cli(); // Mouse middle button double clicked
+    on_MB3_double_cli(); // Mouse right button double clicked
+    on_MB8_double_cli(); // Mouse optional8 button double clicked
+    on_MB9_double_cli(); // Mouse optional9 button double clicked
+
+    on_MB1_rel(); // Mouse left button released
+    on_MB2_rel(); // Mouse middle button released
+    on_MB3_rel(); // Mouse right button released
+    on_MB8_rel(); // Mouse optional8 button released
+    on_MB9_rel(); // Mouse optional9 button released
+
+    on_MB1_drag_start(); // Mouse left button dragged
+    on_MB1_drag_update(double dx, double dy);
+    on_MB1_drag_end();
+
+    on_MB2_drag_start(); // Mouse middle button dragged
+    on_MB2_drag_update(double dx, double dy);
+    on_MB2_drag_end();
+
+    on_MB3_drag_start(); // Mouse right button dragged
+    on_MB3_drag_update(double dx, double dy);
+    on_MB3_drag_end();
+
+    on_MB8_drag_start(); // Mouse optional8 button dragged
+    on_MB8_drag_update(double dx, double dy);
+    on_MB8_drag_end();
+
+    on_MB9_drag_start(); // Mouse optional9 button dragged
+    on_MB9_drag_update(double dx, double dy);
+    on_MB9_drag_end();
+
+    on_MB21_drag_start(); // Mouse middle+left button dragged
+    on_MB21_drag_update(double dx, double dy);
+    on_MB21_drag_end();
+
+    on_MB23_drag_start(); // Mouse middle+right button dragged
+    on_MB23_drag_update(double dx, double dy);
+    on_MB23_drag_end(); 
+
+there is sample debug log:
 
 [SYSTEM] Mouse ENTERED widget at (-2.92578, 482.227)
 

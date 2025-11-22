@@ -1,8 +1,10 @@
 
-./app
 [SYSTEM] Mouse ENTERED widget at (-2.92578, 482.227)
+
 MB1: Click (Press)
+
 MB1: Release
+
 MB1: Click (Press)
 MB1: Release
 MB1: Click (Press)
